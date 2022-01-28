@@ -1,0 +1,7 @@
+{
+	"name": "integrationRuntimelocal",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "to connect with local machine"
+	}
+}

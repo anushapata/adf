@@ -1,0 +1,9 @@
+{
+	"name": "zIntegration-test",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ce8fe28e-5d4e-43d7-b723-b9d639175643",
+		"tenantId": "2b916926-51b6-4a95-8003-bd3525f83077"
+	}
+}

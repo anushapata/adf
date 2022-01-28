@@ -1,0 +1,7 @@
+{
+	"name": "integrationRuntime-vdi",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "connecting via VDI"
+	}
+}

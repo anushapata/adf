@@ -1,0 +1,34 @@
+{
+	"name": "FEE_TO_T24_ADF",
+	"properties": {
+		"activities": [
+			{
+				"name": "fee input to t24 transformation",
+				"type": "ExecuteDataFlow",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "1.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"dataflow": {
+						"referenceName": "df_fee_t24_transformation",
+						"type": "DataFlowReference"
+					},
+					"compute": {
+						"coreCount": 8,
+						"computeType": "General"
+					},
+					"traceLevel": "Fine"
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2022-01-27T04:38:26Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

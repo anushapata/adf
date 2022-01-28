@@ -1,0 +1,24 @@
+{
+	"name": "ds_zint_fee_source_test",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_ablob_zintsa",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "FEE_20210101.csv",
+				"container": "zint-fee"
+			},
+			"columnDelimiter": "|",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
