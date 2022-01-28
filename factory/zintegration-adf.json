@@ -1,0 +1,9 @@
+{
+	"name": "zintegration-adf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "67555990-65da-42d3-bdfd-b64f00bff3fa",
+		"tenantId": "2b916926-51b6-4a95-8003-bd3525f83077"
+	}
+}
